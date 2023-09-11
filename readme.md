@@ -4,8 +4,12 @@ My first contact with [Zig](https://ziglang.org/) programming languge is this Gu
 
 ## Play it :computer:
 
-    $ zig build-exe game.zig
+    $ git clone https://github.com/AxelBrinck/GuessTheNumber.git
+    $ zig build-exe ./game.zig
+    $ ./game.exe
 
 ### Making a very small executable :floppy_disk:
 
-    $ zig build-exe game.zig -dead_strip -O ReleaseSmall
+    $ git clone https://github.com/AxelBrinck/GuessTheNumber.git
+    $ zig build-exe ,/game.zig -dead_strip -O ReleaseSmall
+    $ ./game.exe
